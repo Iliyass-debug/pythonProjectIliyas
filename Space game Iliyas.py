@@ -10,7 +10,7 @@ def run():
     pygame.display.set_caption("Space game by Iliyas")
     bg_color = (0, 0, 0)
     pushka = Gun(screen)
-    bullets = Group()
+    bullets = Group()    
 
     while True:
         controls.events(screen, pushka, bullets)
